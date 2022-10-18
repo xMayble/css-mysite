@@ -6,9 +6,19 @@ body  {
 
 h1 {
  
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -19,26 +29,9 @@ h1 {
 }
 
 .middle-container {
-    width: 200px;
-    height: 200px;
-    background-color: red;
 }
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-
-}
-
 
 .bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(76, 0, 255);
 }
 
 .pro {
@@ -47,12 +40,19 @@ h3 {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 400px;
     bottom: 300px;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 400px;
     top: 50px;
+}
+
+.profile_pic {
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+   
 }
