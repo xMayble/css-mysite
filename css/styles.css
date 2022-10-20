@@ -1,4 +1,6 @@
 body  {
+
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -19,11 +21,22 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
 }
 
 .top-container {
@@ -33,6 +46,7 @@ h3 {
 }
 
 .middle-container {
+    margin: 100px 0;
 }
 
 .bottom-container {
@@ -42,16 +56,21 @@ h3 {
     text-decoration: underline;
 }
 
+.intro  {
+    width: 35%;
+    margin: auto;
+}
+
 .bottom-cloud {
     position: absolute;
-    left: 400px;
+    left: 250px;
     bottom: 300px;
 }
 
 .top-cloud {
     position: absolute;
-    right: 400px;
-    top: 50px;
+    right: 300px;
+    top: 40px;
 }
 
 .profile_pic {
@@ -67,17 +86,16 @@ h3 {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .github_img {
-    width:30%;
+    width:15%;
     float: left;
     margin-right: 30px;
 }
 
 .python_img {
-    width:30%;
+    width:15%;
     float: right;
     margin-left: 30px;
 }
